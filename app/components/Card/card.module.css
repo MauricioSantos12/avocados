@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    min-width: 250px;
+    min-height: 250px;
+}
+
+
+.containerTitle {
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-top: 1px solid grey;
+    width: 100%;
+}
+
+.containerTitle > h2{
+    font-size: 15px;
+}
+
+.containerTitle > span{
+    font-size: 12px;
+}
+

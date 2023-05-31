@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+
+.avocado {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+}
+
+.containerDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.containerSku {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 100px;
+    border-radius: 4px;
+}
+
+.containerSku > p{
+    color: white;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.buttonAdd {
+    color: white;
+    background-color: #0dc142;
+    border-color: grey;
+    padding: 0.5rem;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.buttonAdd:hover {
+    transform: scale(1.06);
+    transition: 0.5s ease-out;
+}
+
+.containerAtributte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+    gap: 15px;
+}
+
+.spaceAttribute {
+    max-width: 500px;
+}
+
+.spaceAttribute > hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 2.5px;
+    background: grey;
+}
+
+.tableAtributte {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleTable {
+    background-color: cadetblue;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 0px;
+    display: block;
+}
+
+.contentTable {
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+.contentTable > td {
+    padding: 10px;
+    margin-right: 15px;
+    width: 90px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .avocado {
+        display: flex;
+        flex-direction: column;
+    }
+}

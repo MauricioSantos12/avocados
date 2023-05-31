@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 2rem 2rem;
+    margin-bottom: 2em;
+    border-bottom: 1px solid grey;
+}
+
+.link, .linkIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkIcon:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+    font-weight: 700;
+}
+
+.link:hover {
+    transition: 0.5s ease-out;
+    font-weight: 700;
+}
+
+.linkCart {
+    color: green;
+    width: 25px;
+    height: 40px;
+}

@@ -1,0 +1,25 @@
+.containerCards {
+    display: grid;
+    place-items: center;
+    gap: 15px;   
+    grid-template-columns: repeat(4, 1fr); 
+}
+
+@media only screen and (max-width: 1080px) {
+    .containerCards {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .containerCards {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .containerCards {
+        grid-template-columns: 1fr; 
+    }
+}
